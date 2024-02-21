@@ -3,7 +3,6 @@ import random
 
 number = random.randint(-10000, 10000)
 
-# Complete the code below to print the last digit of the number stored in the variable number
 last_digit = abs(number) % 10
 
 print("Last digit of", number, "is", last_digit, end=" ")
